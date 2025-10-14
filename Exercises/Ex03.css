@@ -1,0 +1,30 @@
+
+.test-div{
+background: orange;
+padding: 20px;
+margin: 20px;
+}
+
+div.test-div h2 {
+color:plum;
+}
+
+button.special {
+    background: peachpuff
+}
+
+.test-div:hover {
+background: pink;
+}
+#house {
+display: flex;
+flex-direction: row;
+}
+#balls {
+    display: flex;
+    flex-direction: row;
+}
+
+h1, h2, h3, h4 {
+text-decoration: underline;
+}

@@ -1,0 +1,41 @@
+body {
+    
+    h1, p { color: rgb(161, 244, 161);}
+   
+    p{ 
+        font-size: larger;
+        font-style: oblique;
+    }
+    p2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: larger;
+        font-weight: 1000;
+        color:rgb(209, 209, 209);
+        position: relative;
+        top:-50px;
+        right:-750px;
+        -webkit-text-stroke: 1px black;
+    }
+
+background-image: url('shreksswamp.png');
+background-size: 100vw 100vh;
+background-repeat: no-repeat;
+
+#shrek {
+    width: 400px;
+    position: relative;
+    left: -200px;
+    top: 240px;
+}
+
+#donkey {
+    width: 150px;
+    position: relative;
+    right: -120px;
+    top: 210px
+}
+
+
+
+}
+

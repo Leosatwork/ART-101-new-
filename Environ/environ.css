@@ -1,0 +1,6 @@
+body {
+    h1, p {color: rgb(161, 244, 161)}
+background-image: url('shreksswamp.png');
+background-repeat: no-repeat;
+#shrek {width: 200px;}
+}
