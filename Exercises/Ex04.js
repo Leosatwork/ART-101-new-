@@ -1,15 +1,19 @@
 
-let totalnumber = 0;
+let count = 0;
 
-// add button titled try to click me 
+let colors = ["Orchid", "Coral", "HotPink", "Plum"];
+
 
 $("#needy-button") .click(function(){
-    totalnumber = totalnumber + 3
-    let sentence = "I was clicked ";
-    let totalnumbers= sentence + totalnumber;
-    $("#needy-button").html(totalnumbers);
-})
+ 
+    $("#needy-button").html( "Clicks: " + count + " Color: " + colors[count]);
 
+$("body").css("background-color", colors[count]);
+
+count = count + 1
+
+})
+   
 
 //when it is clicked 
 //add one to the total number
